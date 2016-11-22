@@ -1,5 +1,7 @@
 .source.js {
-  .variable.other.readWrite.js {}
+  .storage {
+    color: @very-light-gray;
+  }
 
   .variable.language.this {
     color: @blue;
@@ -14,7 +16,7 @@
   }
 
   .meta.brace.curly.js {
-    color: @very-light-gray;
+    color: @blue;
   }
 
   .meta.brace.round.js {
@@ -31,6 +33,10 @@
     }
 
     &.separator {
+      color: @orange;
+    }
+
+    &.terminator {
       color: @orange;
     }
   }
@@ -78,8 +84,16 @@
   }
 
   .keyword {
+    &.loop {
+      color: @very-light-gray;
+    }
+
     &.operator {
       // color: @red;
+    }
+
+    &.control {
+      color: @very-light-gray;
     }
   }
 }
