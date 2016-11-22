@@ -16,4 +16,4 @@ apm install atom-web-syntax
 Install via Atom editor
 1. Open Preferences/Settings
 2. Click Install > Themes
-3. Search for `Atom Web Syntax` and install
+3. Search for `atom-web-syntax` and install
