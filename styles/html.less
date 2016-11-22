@@ -1,14 +1,45 @@
 .html {
-    .entity {
-        &.name.tag {
-            color: @orange;
-            text-decoration: none;
-        }
+  .entity.html {
+    &.tag {
+      color: @very-light-gray;
+      text-decoration: none;
+
+      &.structure {
+        color: @red;
+      }
+
+      &.style {
+        color: @red;
+      }
+
+      &.script {
+        color: @red;
+      }
+    }
+  }
+
+  .entity {
+    &.css {
+      color: @very-light-gray;
+      text-decoration: none;
     }
 
-    .punctuation {
-        &.definition.tag {
-            color: @orange;
-        }
+    &.other {
+      color: @very-light-gray;
     }
+  }
+
+  .punctuation {
+    &.definition.tag.html {
+      color: @very-light-gray;
+    }
+  }
+
+  .hyperlink {
+    color: @light-blue-400;
+  }
+
+  .string {
+    color: @green;
+  }
 }

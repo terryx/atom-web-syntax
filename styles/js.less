@@ -25,11 +25,23 @@
     &.definition.tag {
       color: @orange;
     }
+
+    &.definition.tag.jsx {
+      color: @very-light-gray;
+    }
+
+    &.separator {
+      color: @orange;
+    }
   }
 
   .support {
     &.class {
       color: @blue;
+    }
+
+    &.class.component {
+      color: @very-light-gray;
     }
   }
 
@@ -40,8 +52,21 @@
     }
 
     &.name.function {
-      color: @orange;
+      color: @very-light-gray;
+
+      &.method {
+        color: @orange;
+      }
     }
+
+    &.name.jsx {
+      color: @very-light-gray;
+    }
+
+    &.other.jsx {
+      color: @very-light-gray;
+    }
+
   }
 
   .constant {
@@ -49,6 +74,12 @@
 
     &.numeric {
       color: @very-light-gray;
+    }
+  }
+
+  .keyword {
+    &.operator {
+      // color: @red;
     }
   }
 }
