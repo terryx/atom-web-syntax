@@ -1,7 +1,7 @@
 {
   "name": "atom-web-syntax",
   "theme": "syntax",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "This is a minimalistic syntax for web development which focus heavily on javascript",
   "repository": {
     "type": "git",
