@@ -4,7 +4,7 @@ This is a minimalistic syntax for web development which focus heavily on javascr
 
 Based on original Atom color and added google material design color
 
-![Screenshot](./screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/terryx/atom-web-syntax/master/screenshot.png)
 
 ## Getting Started
 Install via apm
