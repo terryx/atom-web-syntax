@@ -1,0 +1,19 @@
+{
+  "name": "atom-web-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "This is a minimalistic syntax for web development which focus heavily on javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terryx/atom-web-syntax"
+  },
+  "author": "Terry Yuen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "syntax",
+    "theme"
+  ]
+}

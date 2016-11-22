@@ -1,0 +1,54 @@
+.source.js {
+  .variable.other.readWrite.js {}
+
+  .variable.language.this {
+    color: @blue;
+  }
+
+  .string.quoted.js {
+    color: @green;
+  }
+
+  .string.unquoted.js {
+    color: @very-light-gray;
+  }
+
+  .meta.brace.curly.js {
+    color: @very-light-gray;
+  }
+
+  .meta.brace.round.js {
+    color: @very-light-gray;
+  }
+
+  .punctuation {
+    &.definition.tag {
+      color: @orange;
+    }
+  }
+
+  .support {
+    &.class {
+      color: @blue;
+    }
+  }
+
+  .entity {
+    &.name.tag {
+      color: @orange;
+      text-decoration: none;
+    }
+
+    &.name.function {
+      color: @orange;
+    }
+  }
+
+  .constant {
+    color: @red;
+
+    &.numeric {
+      color: @very-light-gray;
+    }
+  }
+}

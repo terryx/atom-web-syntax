@@ -1,0 +1,21 @@
+.json {
+  &.meta.structure {
+    .string:nth-child(1),
+    .string:nth-child(2),
+    .string:nth-child(3) {
+      color: @orange;
+    }
+
+    .punctuation {
+      &.definition.string {
+        color: @very-light-gray;
+      }
+    }
+  }
+
+  &.meta.structure.value {
+    .string.quoted:nth-child(2) {
+      color: @green;
+    }
+  }
+}
