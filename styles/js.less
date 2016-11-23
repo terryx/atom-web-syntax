@@ -78,4 +78,17 @@
       color: @very-light-gray;
     }
   }
+
+  .keyword {
+    &.operator {
+      color: @red;
+
+      &.accessor,
+      &.assignment,
+      &.comparison {
+        color: @very-light-gray;
+      }
+
+    }
+  }
 }
