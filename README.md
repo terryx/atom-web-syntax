@@ -20,3 +20,5 @@ Install via Atom editor
 2. Click Install > Themes
 
 3. Search for `atom-web-syntax` and install
+
+4. Go to Themes > Syntax Themes and select Atom Web
