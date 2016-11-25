@@ -1,1 +1,52 @@
-//placeholder
+.source.css {
+  .punctuation {
+    &.terminator {
+      color: @light-orange;
+    }
+  }
+
+  .variable {
+    color: @light-blue-500;
+  }
+
+  .entity {
+    &.name.tag {
+      color: @light-orange;
+      text-decoration: none;
+    }
+
+    &.pseudo-class {
+      color: @cyan;
+    }
+
+    &.id {
+      color: @red;
+    }
+
+    &.class {
+      color: @orange;
+    }
+  }
+
+  .support {
+    &.property-value {
+      color: @very-light-gray;
+    }
+  }
+
+  .meta {
+    &.property-value {
+      color: @very-light-gray;
+    }
+  }
+
+  .constant {
+    color: @very-light-gray;
+  }
+
+  .keyword {
+    &.other {
+      color: @very-light-gray;
+    }
+  }
+}
