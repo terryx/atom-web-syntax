@@ -1,3 +1,13 @@
-.string.unquoted.yaml {
-  color: @very-light-gray;
+.yaml {
+  &.string.unquoted {
+    color: @very-light-gray;
+  }
+
+  &.entity.name.tag {
+    text-decoration: none;
+  }
+
+  &.constant.language {
+    color: @red;
+  }
 }

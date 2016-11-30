@@ -4,7 +4,7 @@
   }
 
   .string.quoted.js {
-    color: @green-500;
+    color: @green-300;
   }
 
   .string.unquoted.js {
@@ -29,11 +29,21 @@
     }
 
     &.separator {
-      color: @orange;
+      color: @light-orange;
     }
 
     &.terminator {
       color: @light-orange;
+    }
+
+    &.definition.string {
+      color: @very-light-gray;
+    }
+  }
+
+  .storage {
+    &.function.arrow {
+      color: @red;
     }
   }
 
@@ -43,7 +53,7 @@
     }
 
     &.class.component.jsx {
-      color: @light-orange;
+      color: @red;
     }
   }
 
@@ -89,9 +99,13 @@
       &.logical,
       &.arithmetic,
       &.comparison {
-        color: @very-light-gray;
+        color: @red;
       }
 
     }
   }
+}
+
+.JSXNested {
+  color: @very-light-gray;
 }
