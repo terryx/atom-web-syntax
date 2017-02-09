@@ -1,126 +1,126 @@
-.source.js {
-  .variable.language.this {
+.syntax--source.syntax--js {
+  .syntax--variable.syntax--language.syntax--this {
     color: @blue-400;
   }
 
-  .string.quoted.js {
+  .syntax--string.syntax--quoted.syntax--js {
     color: @green-300;
   }
 
-  .string.unquoted.js {
+  .syntax--string.syntax--unquoted.syntax--js {
     color: @very-light-gray;
   }
 
-  .meta.brace.curly.js {
+  .syntax--meta.syntax--brace.syntax--curly.syntax--js {
     color: @very-light-gray;
   }
 
-  .meta.brace.round.js {
+  .syntax--meta.syntax--brace.syntax--round.syntax--js {
     color: @very-light-gray;
   }
 
-  .punctuation {
-    &.definition.tag {
+  .syntax--punctuation {
+    &.syntax--definition.syntax--tag {
       color: @orange;
     }
 
-    &.definition.tag.jsx {
+    &.syntax--definition.syntax--tag.syntax--jsx {
       color: @very-light-gray;
     }
 
-    &.separator {
+    &.syntax--separator {
       color: @light-orange;
     }
 
-    &.terminator {
+    &.syntax--terminator {
       color: @light-orange;
     }
 
-    &.definition.string {
+    &.syntax--definition.syntax--string {
       color: @very-light-gray;
     }
 
-    &.quasi {
+    &.syntax--quasi {
       color: @red;
     }
   }
 
-  .storage {
-    &.function.arrow {
+  .syntax--storage {
+    &.syntax--function.syntax--arrow {
       color: @red;
     }
   }
 
-  .support {
-    &.class {
+  .syntax--support {
+    &.syntax--class {
       color: @blue;
     }
 
-    &.class.component.jsx {
+    &.syntax--class.syntax--component.syntax--jsx {
       color: @red;
     }
   }
 
-  .entity {
+  .syntax--entity {
 
-    &.name.tag {
+    &.syntax--name.syntax--tag {
       color: @orange;
       text-decoration: none;
     }
 
-    &.name.function {
+    &.syntax--name.syntax--function {
       color: @very-light-gray;
 
-      &.method {
+      &.syntax--method {
         color: @orange;
       }
     }
 
-    &.name.jsx {
+    &.syntax--name.syntax--jsx {
       color: @very-light-gray;
     }
 
-    &.other.jsx {
+    &.syntax--other.syntax--jsx {
       color: @very-light-gray;
 
-      &.attribute-name {
+      &.syntax--attribute-name {
         font-style: normal !important;
       }
     }
 
   }
 
-  .constant {
+  .syntax--constant {
     color: @red;
 
-    &.numeric {
+    &.syntax--numeric {
       color: @light-orange;
     }
   }
 
-  .keyword {
-    &.operator {
+  .syntax--keyword {
+    &.syntax--operator {
       color: @red;
 
-      &.accessor,
-      &.assignment,
-      &.relational,
-      &.logical,
-      &.arithmetic,
-      &.comparison {
+      &.syntax--accessor,
+      &.syntax--assignment,
+      &.syntax--relational,
+      &.syntax--logical,
+      &.syntax--arithmetic,
+      &.syntax--comparison {
         color: @red;
       }
 
     }
 
-    &.control {
-      &.module {
+    &.syntax--control {
+      &.syntax--module {
         color: @red;
       }
     }
   }
 }
 
-.JSXNested {
+.syntax--JSXNested {
   color: @very-light-gray;
 }

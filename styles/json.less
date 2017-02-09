@@ -1,20 +1,20 @@
-.json {
-  &.meta.structure {
-    .string:nth-child(1),
-    .string:nth-child(2),
-    .string:nth-child(3) {
+.syntax--json {
+  &.syntax--meta.syntax--structure {
+    .syntax--string:nth-child(1),
+    .syntax--string:nth-child(2),
+    .syntax--string:nth-child(3) {
       color: @orange;
     }
 
-    .punctuation {
-      &.definition.string {
+    .syntax--punctuation {
+      &.syntax--definition.syntax--string {
         color: @very-light-gray;
       }
     }
   }
 
-  &.meta.structure.value {
-    .string.quoted:nth-child(2) {
+  &.syntax--meta.syntax--structure.syntax--value {
+    .syntax--string.syntax--quoted:nth-child(2) {
       color: @green-300;
     }
   }
